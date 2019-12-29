@@ -168,7 +168,7 @@ public abstract class AbstractPartial
      */
     public int indexOf(DateTimeFieldType type) {
         for (int i = 0, isize = size(); i < isize; i++) {
-            if (getFieldType(i) == type) {
+            if (getFieldType(i) == type)  {
                 return i;
             }
         }
